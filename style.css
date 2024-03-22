@@ -1,0 +1,233 @@
+
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+#mainheading{
+ width: 90%; 
+ height: 90%;  
+ 
+ 
+ 
+}
+#heading{
+    width: 89%;
+    border: 10px double greenyellow;
+    text-align: center;
+    color:green;
+    background-color: lightcoral;
+    margin-left: 4%;
+    background-image: url(./images/tdp\ logo\ ntr.jpg);
+    background-size: contain;
+}
+#mandel{
+    width: 70%;
+    border: 8px dotted blue;
+    text-align: center;
+    display: inline-block;
+}
+.kavyaimg{
+  flex-direction: row;  
+width: 28%;
+/* max-width: 400px; */
+height: 150px;
+display: inline-block;
+border: 5px solid chartreuse;
+object-fit: cover;
+}
+.imageframe{
+    border: 7px solid gold;
+    flex-direction: row;
+    width: 95%;
+    height: 150px;
+}
+
+.if{
+width:60% ;   
+min-width: 320px;
+height: 160px; 
+
+border: 8px solid crimson;
+}
+#logo{
+position: fixed;
+left: 2%;
+top: 20px;
+width:75px;
+height: 75px;
+}
+#logo1{
+    position: fixed;
+    left: 72%;
+    top: 20px;
+    width:75px;
+height: 75px;
+}
+#scrolling{
+    
+ overflow: auto;  
+ width: 95%; 
+ height: 150px;
+ border: 7px solid green;
+ text-align: center;
+ color: blue;
+}
+
+#vehicals{
+    position: sticky;
+    overflow: auto;
+    width: 95%;
+    min-width: 300px; 
+ height: 150px;
+ border: 6px solid red;
+  text-align: center; 
+  color: blue; 
+
+}
+#background{
+    border: 5px solid orangered;
+    color: red;
+    /* background-image: url(./images/tdp\ logo\ 2.jpg);
+    background-size: contain; */
+}
+
+
+#map{
+    width: 30px;
+    height: 37px;
+    }
+    
+        table{
+            border: 2px solid black;
+            width: 20%;
+            min-width: 200px;
+            height: 160px;
+            min-height:130px ;
+            
+            border-spacing: 20px;
+            background-color: tomato;
+            font-size: 2.5rem;
+            border-collapse: separate;
+           
+            
+        }
+        td{
+            border: 2px solid black;
+            background-color: aqua;
+        border-radius: 20px;
+        
+            text-align: center;
+        }
+        td:hover{
+            background-color: greenyellow;
+            color: bisques;
+        }
+        /* tr{
+            width: 50%;
+            height: 20px;
+            
+        
+        } */
+        img{
+            width:46px;
+            height: 59px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .stand{
+            width:53px;
+            height: 110px;
+            object-fit: cover;
+            border-radius: 10px;  
+        }
+        #centerm{
+            width:120px;
+            height: 110px;
+            object-fit: cover;
+            border-radius: 10px; 
+        }
+        #centerm1{
+            width:130px;
+            height: 120px;
+            object-fit:fill;
+            border-radius: 10px; 
+        }
+        #nda{
+            width:120px ;
+           
+            object-fit: cover;
+        }
+        #nda1{
+            width:120px ;
+            height:70px ;
+            object-fit:cover;
+        }
+        caption{
+        font-size: 2.5rem;
+        text-align: center;
+        } 
+        #a{
+            color: red;
+        }
+        #b{
+            color: brown;
+        }
+        #c{
+            color: beep green;
+        }
+        #d{
+            color: deeppink;
+        }
+
+        
+        #c1{
+            color: black;
+        }
+        #c2{
+            color: black;
+        }
+        h1{
+            color: black;
+        }
+        h2{
+            color: blue;
+        }
+       .td1{
+        height: 100px;
+       }
+
+
+.dgms{
+    width:200px ;
+    height: 200px;
+    flex-direction: row;
+}
+
+.dgms1{
+    width:50%;
+    min-width: 200px;
+    height: 56%;
+    min-height:220px ;
+    
+}
+.slider {
+    width: 100%;
+    overflow: hidden;
+    border: 5px double gold;
+   
+    min-width: 170px;
+    min-height:170px ;
+    display: inline-block;
+}
+.slider-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slide {
+    width: 100%;
+    flex-shrink: 0;
+}

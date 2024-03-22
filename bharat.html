@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainheading">
+        <div id="heading">
+            <h1 id="a"></h1> 
+            <h1>Kavali Assembly Constituency</h1> 
+            <h1 id="b">Anemadugu Panchayati</h1>
+           <h2 id="c">Kavali Mandal Rural Incharge</h2>
+           <h1>Linga Reddy Bharat Reddy</h1>
+           <table>
+            
+            <thead>
+            
+            </thead>
+            <tbody>
+            
+            </tbody>
+            <tr>
+            <td><img src="./images/locesh.jpeg"/></td>    
+            <td colspan="2"><img id="nda1" src="./images/15.jpeg"/></td>
+             <!-- <td><img src=""/></td>  -->
+             <td><img src="./images/pavankalyan.jpeg"/></td>       
+            </tr>
+            <tr id="trh">
+                <td class="td1" rowspan="2"><img class="stand" src="./images/barathmain1.jpeg"></td>    
+               <td class="td1" rowspan="2" colspan="2"><img id="centerm1" src="./images/barth sitting.jpeg"/></td>   
+                  
+                <td class="td1" rowspan="2"><img class="stand" src="./images/barathmain2.jpeg"/></td> 
+                  <!-- <td><img src=""/></td>  -->      
+            </tr>
+            <tr>
+                <!-- <td><img src=""/></td>  
+                <td><img src=""/></td>    
+                 <td><img src=""/></td>    
+                 <td><img src=""/></td>     -->
+            </tr>
+            <tr>
+                <td><img src="./images/bharath1.jpeg"/></td>    
+                <td><img src="./images/barath4.jpeg"/></td>    
+                <td><img src="./images/barath3.jpeg"/></td>    
+                <td><img src="./images/barath2.jpeg"/></td>        
+            </tr>
+            
+            
+            
+            
+            <tfoot>
+            
+            </tfoot>
+             </table>
+      
+           <img  id="logo" src="./images/tdp logo1.jpg"/>
+           <img id="logo1" src="./images/tdp logo 2.jpg"/>
+            
+           <div class="slider">
+            <div class="slider-container">
+                
+                <div class="slide"><img class="dgms1" src="./images/kavyaimage.jpeg" alt="Image 2"></div>
+                <div class="slide"><img class="dgms1" src="./images/kkr7.jpeg" alt="Image 3"></div>
+                <div class="slide"><img class="dgms1" src="./images/kkr1.jpeg" alt="Image 3"></div>
+                <div class="slide"><img class="dgms1" src="./images/kkr2.jpeg" alt="Image 1"></div>
+                <div class="slide"><img class="dgms1" src="./images/kkr3.jpeg" alt="Image 2"></div>
+                <div class="slide"><img class="dgms1" src="./images/kkr4.jpeg" alt="Image 3"></div>
+                <div class="slide"><img class="dgms1" src="./images/kkr5.jpeg" alt="Image 3"></div>
+                <div class="slide"><img class="dgms1" src="./images/kkr6.jpeg" alt="Image 3"></div>
+               
+                <!-- Add more slides as needed -->
+            </div>
+            <div class="imageframe">
+                <marquee>
+                <img class="kavyaimg" src="./images/barath2.jpeg"/>
+                <img class="kavyaimg" src="./images/barath3.jpeg"/>
+                <img class="kavyaimg" src="./images/barathmain1.jpeg"/>
+                <img class="kavyaimg" src="./images/barathmain2.jpeg"/>
+                <img class="kavyaimg" src="./images/barth sitting.jpeg"/>
+                <img class="kavyaimg" src="./images/bharath1.jpeg"/>
+                <img class="kavyaimg" src="./images/barath2.jpeg"/>
+                <img class="kavyaimg" src="./images/barath3.jpeg"/>
+                <img class="kavyaimg" src="./images/bharath1.jpeg"/>
+                
+        
+              </marquee>
+        
+              </div>
+        
+
+
+
+
+
+
+           
+        
+          
+          
+            </div> 
+        </div>
+        </div>
+         <audio autoplay loop><source src="./audio/a-small-miracle-132333.mp3" type="audio/mp3"></audio>
+
+         <script>window.addEventListener('click',()=>{
+            document.getElementById('song').play();
+         })</script>
+
+          <script>
+            const sliderContainer = document.querySelector('.slider-container');
+            let slideIndex = 0;
+          
+            function nextSlide() {
+                slideIndex++;
+                if (slideIndex === sliderContainer.children.length) {
+                    slideIndex = 0;
+                }
+                updateSlider();
+            }
+          
+            function updateSlider() {
+                const slideWidth = sliderContainer.clientWidth;
+                sliderContainer.style.transform = `translateX(-${slideIndex * slideWidth}px)`;
+            }
+          
+            setInterval(nextSlide, 2000); // Change slide every 2 seconds
+          </script>          
+</body>
+</html>
